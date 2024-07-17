@@ -13,5 +13,6 @@ def es_primo(numero):
     numeros=[2,5,7,9,4,2,8]
     numeros_primos=filtrar_numeros_primos(numeros)
     print(numeros_primos) 
+    
 
    
