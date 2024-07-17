@@ -6,6 +6,8 @@ def es_primo(numero):
         return False
     for i in range(2,int(numero**0.5)+1):
         if numero % i ==0:
+            return False
+        return True
     def filtrar_numeros_primos(lista_numeros):
         return list(filter(es_primo,lista_numeros))
     numeros=[2,5,7,9,4,2,8]
