@@ -10,3 +10,4 @@ def contar_vocales(texto):
 entrada="eucalipto"
 resultado=contar_vocales(entrada)
 print(resultado)
+
